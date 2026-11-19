@@ -1,0 +1,305 @@
+/* #main{
+    color: green;
+    background-color: yellow;
+    text-align:left;
+    text-decoration:line-through;
+    font-weight:bold;
+    font-size:20px;
+
+}
+#one{
+    color: blue;
+    background-color: #add8e6;
+    text-align: center;
+    text-decoration:underline;
+    font-weight:bold;
+    line-height:25px;
+    text-transform:uppercase;
+
+
+}
+#two{
+    color: red;
+    background-color: lightpink;
+    text-align: right;
+    text-decoration:overline;
+    font-family:Arial, Helvetica, sans-serif
+}
+#three{
+    color: purple;
+    background-color: lightgreen;
+    text-align: left;
+    font-weight:bolder;
+    font-family:cursive;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#four{
+   background-color: #0f1111;
+   height: 60px;
+   
+  
+   border:2px solid black;
+   color: white;
+   
+   
+}
+#logo{
+    font-size: 25px;
+   
+}
+#account{
+
+}
+#cart{
+   visibility: hidden;
+}
+#contactus{
+    
+}
+#search{
+    color: #f08804;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-right:200px;
+}
+#four{
+    diplay:inline-block;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: #e20505;
+    border:  3px solid black;
+    
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: #1cca33;
+    border:3px solid black;
+    
+}
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: #f08804;
+    border:3px solid black;
+    
+}
+#container{
+    height:400px;
+    width:400px;
+    background-color: #add8e6;
+    position: static
+}
+#inner{
+    height:150px;
+    width:45%;
+    background-color: #e20505;
+    position:
+    
+
+}
+ */
+/* div{
+    display: inline-block;
+    
+    
+    
+ }
+
+
+
+
+
+ #one{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border:2px solid black;
+    position:relative;
+    left:250px;
+    /* position: sticky; */
+    /* top:50px; */
+
+   
+ /* }
+ #two{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(213, 131, 16);
+    border:2px solid black;
+    position:absolute;
+    right: 30px;
+    top:1000px; */
+    /* position:sticky; */
+
+
+
+
+    
+ /* }
+ #three{
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(234, 10, 208);
+    border:2px solid black;
+    position:fixed;
+    top:0; */
+    
+    
+/* 
+ }
+ #four{
+    height: 100px;
+    width:100%;
+    background-color: rgb(44, 235, 10);
+    border:2px solid black; */
+    /* position:sticky;
+    bottom */
+    /* display:inline-block; */
+    /* margin-top:50px;
+    padding-left:10px; */
+    /* position: sticky; */
+    
+ /* } */ 
+
+
+
+
+
+
+
+ /* body{
+    text-align:center; 
+ }
+ div{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    border:2px solid black;
+    text-align: center;
+    /* transition:all ;
+    transition-duration: 0s;
+    transition-timing-function: ease-in;
+    transition-delay:0s; */
+    /* animation-name:myanimation;
+    animation-duration:0.25s;
+    animation-timing-function:ease-in;
+    animation-delay:2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+
+
+
+    
+ }
+ #container{
+    width:800px;
+    height:200px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self:flex-end;
+    animation-name:myanimation;
+    animation-duration:0.5s;
+    animation-timing-function: ease-in;
+    animation-delay:2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+
+
+ }
+ #box1{
+    background-color: rgb(91, 226, 226);
+ }
+ #box2{
+    background-color: rgb(72, 72, 22);
+
+ }
+ #box3{
+    background-color: darkkhaki;
+
+ }
+ #box4{
+    background-color: red;
+ }
+ #box5{
+    background-color: slateblue;
+ }
+ h1{
+    text-align: center;
+ }
+
+ #big{
+    height:80px;
+    width:80px;
+    background-color: rgb(115, 176, 17);
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    left:200px;
+ }
+ #small{
+    height:50px;
+    width: 50px;
+    background-color: blueviolet;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    
+ }
+ div:hover{
+    /* background-color: blue;
+    color:white;
+    font-size: 20px; */
+    /* transform:skew(30deg);
+    transform:scale(0.5);
+    transform:translatey(20px); */
+
+
+ /* }
+ div:active{
+    background-color: pink;
+ }
+ @keyframes myanimation{
+   from { background-color:white}
+   to{ background-color:red;}
+
+ }  */ 
+
+div{
+   height: 200px;
+   width: 200px;
+   /* background-color: blueviolet; */
+  
+   border:10px solid red;
+    border-left:10px solid black;
+   border-radius:50%;
+   position:absolute;
+   top:200px;
+   right:200px;
+   animation: animation  0.5s steps(5) 1s infinite  normal;
+   
+}
+@keyframes animation{
+   from{transform:rotate(0deg);}
+   to{transform:rotate(360deg);}
+}
+
