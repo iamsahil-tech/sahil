@@ -42,6 +42,16 @@
 //     console.log("apna college");
 // }
 
-let userName=prompt("enter function");
-let length=userName.length;
-console.log("@"+userName+length); 
+// let userName=prompt("enter function");
+// let length=userName.length;
+// console.log("@"+userName+length);
+
+function mul(a,b){
+    return a*b;
+}
+
+
+
+const arrowMul=(a,b) => {
+    console.log(a*b);
+};
